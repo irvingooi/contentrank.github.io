@@ -2,4 +2,4 @@ User-agent: *
 
 Allow: /
 # Sitemap Reference
-Sitemap: http://contentrank.net/sitemap.xml
+Sitemap: https://contentrank.net/sitemap.xml

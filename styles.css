@@ -167,16 +167,17 @@ and (min-device-width : 414px)
 and (max-device-width : 736px) 
 and (orientation : portrait) {
     h2#hello {
-        font-size: 40px;
+        font-size: 45px;
     }
     h3#future {
-        font-size: 30px;
+        font-size: 40px;
     }
     a#sayhi {
-        font-size: 40px;
+        font-size: 45px;
     }
     section#pane_two a {
         font-size: 30px;
         width: 500px;
+	line-height: 50px;
 	}
 }

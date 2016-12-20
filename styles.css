@@ -147,8 +147,6 @@ a#sayhi {
 	border-bottom: 3px solid #ccc;
 }
 
-
-
 aside#lightlogo {
 	position: absolute;
 	z-index: 0;
@@ -164,12 +162,21 @@ aside#lightlogo {
 
 }
 
-
-
-@media only all and (max-width: 700px){
-	section#pane_two a {
-		width: auto;
-		padding-left: 20px;
-		padding-right: 20px;
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) 
+and (orientation : portrait) {
+    h2#hello {
+        font-size: 40px;
+    }
+    h3#future {
+        font-size: 30px;
+    }
+    a#sayhi {
+        font-size: 40px;
+    }
+    section#pane_two a {
+        font-size: 30px;
+        width: 500px;
 	}
 }
